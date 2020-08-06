@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 8000;
 const compression = require('compression');
 const cors = require('cors')
 
-var whitelist = ['http://localhost:3000']
+var whitelist = ['http://localhost:3000','https://mist-dropdown.netlify.app']
 var corsOptions = {
 	origin: function (origin, callback) {
 		if (whitelist.indexOf(origin) !== -1) {
