@@ -1,0 +1,9 @@
+{
+  "name": "large-chunk-api",
+  "version": "1.0.0",
+  "description": "Simple nod server which returns large json",
+  "main": "index.js",
+  "repository": "https://github.com/mkrishnan-codes/large-chunk-data",
+  "author": "Manu Krishnan",
+  "license": "MIT"
+}
